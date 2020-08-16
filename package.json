@@ -3,9 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "test": "node test.js",
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "serve": "sh ./build/dev.sh",
+    "build": "sh ./build/pro.sh",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
